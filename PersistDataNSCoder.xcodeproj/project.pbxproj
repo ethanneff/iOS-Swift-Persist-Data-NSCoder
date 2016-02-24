@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		673D0D201C7D54D80098BDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673D0D1F1C7D54D80098BDC8 /* AppDelegate.swift */; };
+		673D0D271C7D54D80098BDC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673D0D261C7D54D80098BDC8 /* Assets.xcassets */; };
+		673D0D2A1C7D54D80098BDC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673D0D281C7D54D80098BDC8 /* LaunchScreen.storyboard */; };
+		673D0D351C7D54D80098BDC8 /* PersistDataNSCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673D0D341C7D54D80098BDC8 /* PersistDataNSCoderTests.swift */; };
+		673D0D401C7D54D80098BDC8 /* PersistDataNSCoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673D0D3F1C7D54D80098BDC8 /* PersistDataNSCoderUITests.swift */; };
+		673D0D4F1C7D551E0098BDC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673D0D4D1C7D551E0098BDC8 /* Main.storyboard */; };
+		673D0D501C7D551E0098BDC8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673D0D4E1C7D551E0098BDC8 /* MainViewController.swift */; };
+		673D0D521C7D55B40098BDC8 /* Deparment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673D0D511C7D55B40098BDC8 /* Deparment.swift */; };
+		673D0D541C7D55BC0098BDC8 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673D0D531C7D55BC0098BDC8 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		673D0D311C7D54D80098BDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 673D0D141C7D54D80098BDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673D0D1B1C7D54D80098BDC8;
+			remoteInfo = PersistDataNSCoder;
+		};
+		673D0D3C1C7D54D80098BDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 673D0D141C7D54D80098BDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 673D0D1B1C7D54D80098BDC8;
+			remoteInfo = PersistDataNSCoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		673D0D1C1C7D54D80098BDC8 /* PersistDataNSCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistDataNSCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		673D0D1F1C7D54D80098BDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		673D0D261C7D54D80098BDC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		673D0D291C7D54D80098BDC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		673D0D2B1C7D54D80098BDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673D0D301C7D54D80098BDC8 /* PersistDataNSCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistDataNSCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		673D0D341C7D54D80098BDC8 /* PersistDataNSCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistDataNSCoderTests.swift; sourceTree = "<group>"; };
+		673D0D361C7D54D80098BDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673D0D3B1C7D54D80098BDC8 /* PersistDataNSCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistDataNSCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		673D0D3F1C7D54D80098BDC8 /* PersistDataNSCoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistDataNSCoderUITests.swift; sourceTree = "<group>"; };
+		673D0D411C7D54D80098BDC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		673D0D4D1C7D551E0098BDC8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		673D0D4E1C7D551E0098BDC8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		673D0D511C7D55B40098BDC8 /* Deparment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deparment.swift; sourceTree = "<group>"; };
+		673D0D531C7D55BC0098BDC8 /* Assignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		673D0D191C7D54D80098BDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673D0D2D1C7D54D80098BDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673D0D381C7D54D80098BDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		673D0D131C7D54D80098BDC8 = {
+			isa = PBXGroup;
+			children = (
+				673D0D1E1C7D54D80098BDC8 /* PersistDataNSCoder */,
+				673D0D331C7D54D80098BDC8 /* PersistDataNSCoderTests */,
+				673D0D3E1C7D54D80098BDC8 /* PersistDataNSCoderUITests */,
+				673D0D1D1C7D54D80098BDC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		673D0D1D1C7D54D80098BDC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				673D0D1C1C7D54D80098BDC8 /* PersistDataNSCoder.app */,
+				673D0D301C7D54D80098BDC8 /* PersistDataNSCoderTests.xctest */,
+				673D0D3B1C7D54D80098BDC8 /* PersistDataNSCoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		673D0D1E1C7D54D80098BDC8 /* PersistDataNSCoder */ = {
+			isa = PBXGroup;
+			children = (
+				673D0D4D1C7D551E0098BDC8 /* Main.storyboard */,
+				673D0D4E1C7D551E0098BDC8 /* MainViewController.swift */,
+				673D0D511C7D55B40098BDC8 /* Deparment.swift */,
+				673D0D531C7D55BC0098BDC8 /* Assignment.swift */,
+				673D0D551C7D55E40098BDC8 /* Other */,
+			);
+			path = PersistDataNSCoder;
+			sourceTree = "<group>";
+		};
+		673D0D331C7D54D80098BDC8 /* PersistDataNSCoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				673D0D341C7D54D80098BDC8 /* PersistDataNSCoderTests.swift */,
+				673D0D361C7D54D80098BDC8 /* Info.plist */,
+			);
+			path = PersistDataNSCoderTests;
+			sourceTree = "<group>";
+		};
+		673D0D3E1C7D54D80098BDC8 /* PersistDataNSCoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				673D0D3F1C7D54D80098BDC8 /* PersistDataNSCoderUITests.swift */,
+				673D0D411C7D54D80098BDC8 /* Info.plist */,
+			);
+			path = PersistDataNSCoderUITests;
+			sourceTree = "<group>";
+		};
+		673D0D551C7D55E40098BDC8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				673D0D1F1C7D54D80098BDC8 /* AppDelegate.swift */,
+				673D0D261C7D54D80098BDC8 /* Assets.xcassets */,
+				673D0D281C7D54D80098BDC8 /* LaunchScreen.storyboard */,
+				673D0D2B1C7D54D80098BDC8 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		673D0D1B1C7D54D80098BDC8 /* PersistDataNSCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673D0D441C7D54D80098BDC8 /* Build configuration list for PBXNativeTarget "PersistDataNSCoder" */;
+			buildPhases = (
+				673D0D181C7D54D80098BDC8 /* Sources */,
+				673D0D191C7D54D80098BDC8 /* Frameworks */,
+				673D0D1A1C7D54D80098BDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersistDataNSCoder;
+			productName = PersistDataNSCoder;
+			productReference = 673D0D1C1C7D54D80098BDC8 /* PersistDataNSCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		673D0D2F1C7D54D80098BDC8 /* PersistDataNSCoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673D0D471C7D54D80098BDC8 /* Build configuration list for PBXNativeTarget "PersistDataNSCoderTests" */;
+			buildPhases = (
+				673D0D2C1C7D54D80098BDC8 /* Sources */,
+				673D0D2D1C7D54D80098BDC8 /* Frameworks */,
+				673D0D2E1C7D54D80098BDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				673D0D321C7D54D80098BDC8 /* PBXTargetDependency */,
+			);
+			name = PersistDataNSCoderTests;
+			productName = PersistDataNSCoderTests;
+			productReference = 673D0D301C7D54D80098BDC8 /* PersistDataNSCoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		673D0D3A1C7D54D80098BDC8 /* PersistDataNSCoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 673D0D4A1C7D54D80098BDC8 /* Build configuration list for PBXNativeTarget "PersistDataNSCoderUITests" */;
+			buildPhases = (
+				673D0D371C7D54D80098BDC8 /* Sources */,
+				673D0D381C7D54D80098BDC8 /* Frameworks */,
+				673D0D391C7D54D80098BDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				673D0D3D1C7D54D80098BDC8 /* PBXTargetDependency */,
+			);
+			name = PersistDataNSCoderUITests;
+			productName = PersistDataNSCoderUITests;
+			productReference = 673D0D3B1C7D54D80098BDC8 /* PersistDataNSCoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		673D0D141C7D54D80098BDC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ethan Neff";
+				TargetAttributes = {
+					673D0D1B1C7D54D80098BDC8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					673D0D2F1C7D54D80098BDC8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 673D0D1B1C7D54D80098BDC8;
+					};
+					673D0D3A1C7D54D80098BDC8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 673D0D1B1C7D54D80098BDC8;
+					};
+				};
+			};
+			buildConfigurationList = 673D0D171C7D54D80098BDC8 /* Build configuration list for PBXProject "PersistDataNSCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 673D0D131C7D54D80098BDC8;
+			productRefGroup = 673D0D1D1C7D54D80098BDC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				673D0D1B1C7D54D80098BDC8 /* PersistDataNSCoder */,
+				673D0D2F1C7D54D80098BDC8 /* PersistDataNSCoderTests */,
+				673D0D3A1C7D54D80098BDC8 /* PersistDataNSCoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		673D0D1A1C7D54D80098BDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673D0D2A1C7D54D80098BDC8 /* LaunchScreen.storyboard in Resources */,
+				673D0D271C7D54D80098BDC8 /* Assets.xcassets in Resources */,
+				673D0D4F1C7D551E0098BDC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673D0D2E1C7D54D80098BDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673D0D391C7D54D80098BDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		673D0D181C7D54D80098BDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673D0D541C7D55BC0098BDC8 /* Assignment.swift in Sources */,
+				673D0D501C7D551E0098BDC8 /* MainViewController.swift in Sources */,
+				673D0D201C7D54D80098BDC8 /* AppDelegate.swift in Sources */,
+				673D0D521C7D55B40098BDC8 /* Deparment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673D0D2C1C7D54D80098BDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673D0D351C7D54D80098BDC8 /* PersistDataNSCoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		673D0D371C7D54D80098BDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673D0D401C7D54D80098BDC8 /* PersistDataNSCoderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		673D0D321C7D54D80098BDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 673D0D1B1C7D54D80098BDC8 /* PersistDataNSCoder */;
+			targetProxy = 673D0D311C7D54D80098BDC8 /* PBXContainerItemProxy */;
+		};
+		673D0D3D1C7D54D80098BDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 673D0D1B1C7D54D80098BDC8 /* PersistDataNSCoder */;
+			targetProxy = 673D0D3C1C7D54D80098BDC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		673D0D281C7D54D80098BDC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				673D0D291C7D54D80098BDC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		673D0D421C7D54D80098BDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		673D0D431C7D54D80098BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		673D0D451C7D54D80098BDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersistDataNSCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.PersistDataNSCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		673D0D461C7D54D80098BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersistDataNSCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.PersistDataNSCoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		673D0D481C7D54D80098BDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersistDataNSCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.PersistDataNSCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersistDataNSCoder.app/PersistDataNSCoder";
+			};
+			name = Debug;
+		};
+		673D0D491C7D54D80098BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PersistDataNSCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.PersistDataNSCoderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersistDataNSCoder.app/PersistDataNSCoder";
+			};
+			name = Release;
+		};
+		673D0D4B1C7D54D80098BDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersistDataNSCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.PersistDataNSCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersistDataNSCoder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		673D0D4C1C7D54D80098BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PersistDataNSCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eneff.PersistDataNSCoderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PersistDataNSCoder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		673D0D171C7D54D80098BDC8 /* Build configuration list for PBXProject "PersistDataNSCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673D0D421C7D54D80098BDC8 /* Debug */,
+				673D0D431C7D54D80098BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		673D0D441C7D54D80098BDC8 /* Build configuration list for PBXNativeTarget "PersistDataNSCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673D0D451C7D54D80098BDC8 /* Debug */,
+				673D0D461C7D54D80098BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		673D0D471C7D54D80098BDC8 /* Build configuration list for PBXNativeTarget "PersistDataNSCoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673D0D481C7D54D80098BDC8 /* Debug */,
+				673D0D491C7D54D80098BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		673D0D4A1C7D54D80098BDC8 /* Build configuration list for PBXNativeTarget "PersistDataNSCoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				673D0D4B1C7D54D80098BDC8 /* Debug */,
+				673D0D4C1C7D54D80098BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 673D0D141C7D54D80098BDC8 /* Project object */;
+}

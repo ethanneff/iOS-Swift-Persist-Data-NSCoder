@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="n21-5M-0fI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="2tK-9H-pU1">
+            <objects>
+                <viewController id="fgc-cu-LdA" customClass="MainViewController" customModule="PersistDataNSCoder" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q6B-JV-l57"/>
+                        <viewControllerLayoutGuide type="bottom" id="rTD-oZ-wzH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xW0-NB-NNh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgi-7C-0ha">
+                                <rect key="frame" x="55" y="102" width="30" height="30"/>
+                                <state key="normal" title="load"/>
+                                <connections>
+                                    <action selector="load:" destination="fgc-cu-LdA" eventType="touchUpInside" id="6aE-hF-8RM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwh-Oc-vzH">
+                                <rect key="frame" x="54" y="140" width="32" height="30"/>
+                                <state key="normal" title="save"/>
+                                <connections>
+                                    <action selector="save:" destination="fgc-cu-LdA" eventType="touchUpInside" id="8Xf-HI-Kf0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KP-OP-WV9">
+                                <rect key="frame" x="13" y="197" width="115" height="30"/>
+                                <state key="normal" title="output view data"/>
+                                <connections>
+                                    <action selector="output:" destination="fgc-cu-LdA" eventType="touchUpInside" id="kxe-G0-t5t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg3-4l-7dq">
+                                <rect key="frame" x="14" y="245" width="113" height="30"/>
+                                <state key="normal" title="create view data"/>
+                                <connections>
+                                    <action selector="create:" destination="fgc-cu-LdA" eventType="touchUpInside" id="LHX-Y1-dvO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dgR-xp-kTQ">
+                                <rect key="frame" x="20" y="285" width="103" height="30"/>
+                                <state key="normal" title="clear view data"/>
+                                <connections>
+                                    <action selector="clear:" destination="fgc-cu-LdA" eventType="touchUpInside" id="h6E-8g-le3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="output" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFf-Qx-bFU">
+                                <rect key="frame" x="20" y="340" width="242" height="179"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Spz-Q3-mJK"/>
+                    <connections>
+                        <outlet property="output" destination="sFf-Qx-bFU" id="Hyq-aE-lQt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Grp-bl-tTD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2054" y="346"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Fcd-Qe-B5x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n21-5M-0fI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gti-bp-h6T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fgc-cu-LdA" kind="relationship" relationship="rootViewController" id="yaL-r5-cc8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Egd-GN-FWF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1242" y="346"/>
+        </scene>
+    </scenes>
+</document>
